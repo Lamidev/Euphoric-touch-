@@ -41,7 +41,7 @@ const About = React.forwardRef(({ scrollToSection, bookingsRef }, ref) => {
 
             <h4 className="text-warning">Meet Our CEO</h4>
             <p>
-              <strong>Latisha Taylor</strong>, the founder and visionary behind{" "}
+              <strong>Latisha Raine Taylor</strong>, the founder and visionary behind{" "}
               <strong>Euphoric Touch</strong>, has dedicated over a decade to
               perfecting the art of massage therapy. Her passion for wellness
               and commitment to excellence drive the foundation of our services.

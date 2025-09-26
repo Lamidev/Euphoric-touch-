@@ -3,11 +3,11 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import { motion } from "framer-motion";
 
 const pricingData = [
-  { type: "Swedish Massage", price: 100, duration: "60 minutes" },
-  { type: "Deep Tissue Massage", price: 120, duration: "60 minutes" },
-  { type: "Aromatherapy Massage", price: 120, duration: "75 minutes" },
-  { type: "Hot Stone Massage", price: 150, duration: "90 minutes" },
-  { type: "Nuru Massage", price: 200, duration: "90 minutes" },
+  { type: "Swedish Massage", price: 150, duration: "60 minutes" },
+  { type: "Deep Tissue Massage", price: 200, duration: "60 minutes" },
+  { type: "Aromatherapy Massage", price: 200, duration: "75 minutes" },
+  { type: "Hot Stone Massage", price: 200, duration: "90 minutes" },
+  { type: "Nuru Massage", price: 300, duration: "90 minutes" },
 ];
 
 const Pricing = React.forwardRef((props, ref) => {

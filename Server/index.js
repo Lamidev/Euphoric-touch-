@@ -7,7 +7,7 @@ const app = express();
 
 // Enhanced CORS for production
 app.use(cors({
-  origin: ['http://localhost:5173', 'https://euphoric-touch-with-tish.onrender.com'],
+  origin: ['http://localhost:5173', 'https://fresha-massage-spa-and-wellness.onrender.com'],
   credentials: true
 }));
 app.use(express.json());

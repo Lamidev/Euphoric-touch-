@@ -35,9 +35,9 @@ const Footer = () => {
 
           {/* Copyright Notice */}
           <Col xs={12} md={4}>
-            <h5>Euphoric Touch</h5>
+            <h5>Fresha Massage Spa & Wellness</h5>
             <p className="mb-0">
-              &copy; {new Date().getFullYear()} Euphoric Touch. All rights reserved.
+              &copy; {new Date().getFullYear()} Fresha Massage Spa & Wellness. All rights reserved.
             </p>
           </Col>
         </Row>

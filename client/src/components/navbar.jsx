@@ -5,7 +5,7 @@ const NavBar = ({ scrollToSection, homeRef, aboutRef, servicesRef, bookingsRef, 
   return (
     <Navbar bg="dark" variant="dark" expand="lg" fixed="top">
       <Container>
-        <Navbar.Brand href="#">Euphoric Touch</Navbar.Brand>
+        <Navbar.Brand href="#">Fresha Massage Spa & Wellness</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

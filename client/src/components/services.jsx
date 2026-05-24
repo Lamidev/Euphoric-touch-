@@ -31,7 +31,7 @@ const services = [
   },
   {
     title: "Masseuses Across the Country",
-    description: "Euphoric Touch has certified masseuses in different states, ready to provide professional massage experiences wherever you are.",
+    description: "Fresha Massage Spa & Wellness & Wellness& Wellnesshas certified masseuses in different states, ready to provide professional massage experiences wherever you are.",
     icon: FaMapMarkerAlt,
   },
 ];

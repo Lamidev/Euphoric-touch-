@@ -12,7 +12,7 @@ const About = React.forwardRef(({ scrollToSection, bookingsRef }, ref) => {
           <Col md={6}>
             <h2 className="text-warning">About Us</h2>
             <p>
-              Welcome to <strong>Euphoric Touch</strong>, where relaxation meets
+              Welcome to <strong>Fresha Massage Spa & Wellness</strong>, where relaxation meets
               rejuvenation. We specialize in delivering exceptional{" "}
               <strong>massage therapy</strong> tailored to your needs, ensuring
               every session is a <strong>deeply restorative experience</strong>.
@@ -21,7 +21,7 @@ const About = React.forwardRef(({ scrollToSection, bookingsRef }, ref) => {
               help you <strong>reconnect with your body and mind</strong>.
             </p>
             <p>
-              At <strong>Euphoric Touch</strong>, we believe that{" "}
+              At <strong>Fresha Massage Spa & Wellness</strong>, we believe that{" "}
               <strong>true relaxation should be effortless</strong>which is why
               we offer <strong>unmatched flexibility in our services</strong>.
               You can choose to <strong>visit our serene studio</strong> for a
@@ -42,10 +42,10 @@ const About = React.forwardRef(({ scrollToSection, bookingsRef }, ref) => {
             <h4 className="text-warning">Meet Our CEO</h4>
             <p>
               <strong>Latisha Raine Taylor</strong>, the founder and visionary behind{" "}
-              <strong>Euphoric Touch</strong>, has dedicated over a decade to
+              <strong>Fresha Massage Spa & Wellness</strong>, has dedicated over a decade to
               perfecting the art of massage therapy. Her passion for wellness
               and commitment to excellence drive the foundation of our services.
-              Under her leadership, <strong>Euphoric Touch</strong> has become a
+              Under her leadership, <strong>Fresha Massage Spa & Wellness</strong> has become a
               trusted name in personalized massage experiences, where every
               client is treated with{" "}
               <strong>care, professionalism, and expertise</strong>.

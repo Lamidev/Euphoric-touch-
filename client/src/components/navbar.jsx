@@ -26,7 +26,6 @@
 import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Container, Button } from "react-bootstrap";
 import { FaSpa, FaBars, FaTimes } from "react-icons/fa";
-import { motion } from "framer-motion";
 
 const NavBar = ({ scrollToSection, homeRef, aboutRef, servicesRef, bookingsRef, pricingRef }) => {
   const [scrolled, setScrolled] = useState(false);

@@ -60,8 +60,7 @@
 
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { motion } from "framer-motion";
-import { FaFacebook, FaInstagram, FaEnvelope, FaPhone, FaMapMarkerAlt, FaClock } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaEnvelope, FaPhone, FaMapMarkerAlt, FaClock, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -87,7 +86,7 @@ const Footer = () => {
                 Certified therapists, luxurious experience, and unparalleled care.
               </p>
               <div className="d-flex gap-3 mt-3">
-                <a href="https://www.facebook.com/share/18n1BA2eiJ/" target="_blank" style={{
+                <a href="https://www.facebook.com/share/17crpfuxkF/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" style={{
                   width: "40px",
                   height: "40px",
                   background: "rgba(255,255,255,0.1)",
@@ -102,7 +101,7 @@ const Footer = () => {
                 onMouseLeave={(e) => e.currentTarget.style.background = "rgba(255,255,255,0.1)"}>
                   <FaFacebook />
                 </a>
-                <a href="https://www.instagram.com/latttaylor" target="_blank" style={{
+                <a href="https://wa.me/18644997958?text=Hello!%20I'm%20interested%20in%20booking%20a%20massage%20session." target="_blank" rel="noopener noreferrer" style={{
                   width: "40px",
                   height: "40px",
                   background: "rgba(255,255,255,0.1)",
@@ -113,11 +112,11 @@ const Footer = () => {
                   transition: "all 0.3s ease",
                   color: "#fff"
                 }}
-                onMouseEnter={(e) => e.currentTarget.style.background = "#8B5CF6"}
+                onMouseEnter={(e) => e.currentTarget.style.background = "#25D366"}
                 onMouseLeave={(e) => e.currentTarget.style.background = "rgba(255,255,255,0.1)"}>
-                  <FaInstagram />
+                  <FaWhatsapp />
                 </a>
-                <a href="mailto:Latishataylor1988@gmail.com" style={{
+                <a href="mailto:freshamassagebooking@gmail.com" style={{
                   width: "40px",
                   height: "40px",
                   background: "rgba(255,255,255,0.1)",
@@ -162,11 +161,21 @@ const Footer = () => {
               <h5 className="mb-3" style={{ color: "#fff" }}>Contact Info</h5>
               <div className="mb-2 d-flex align-items-center gap-2">
                 <FaPhone style={{ color: "#8B5CF6" }} />
-                <span style={{ color: "#d3d3d3" }}>(555) 123-4567</span>
+                <a href="tel:+18644997958" style={{ color: "#d3d3d3", textDecoration: "none", transition: "color 0.3s ease" }} onMouseEnter={(e) => e.target.style.color = "#8B5CF6"} onMouseLeave={(e) => e.target.style.color = "#d3d3d3"}>
+                  +1 864-499-7958
+                </a>
+              </div>
+              <div className="mb-2 d-flex align-items-center gap-2">
+                <FaWhatsapp style={{ color: "#25D366" }} />
+                <a href="https://wa.me/18644997958?text=Hello!%20I'm%20interested%20in%20booking%20a%20massage%20session." target="_blank" rel="noopener noreferrer" style={{ color: "#d3d3d3", textDecoration: "none", transition: "color 0.3s ease" }} onMouseEnter={(e) => e.target.style.color = "#25D366"} onMouseLeave={(e) => e.target.style.color = "#d3d3d3"}>
+                  +1 864-499-7958 (WhatsApp)
+                </a>
               </div>
               <div className="mb-2 d-flex align-items-center gap-2">
                 <FaEnvelope style={{ color: "#8B5CF6" }} />
-                <span style={{ color: "#d3d3d3" }}>info@freshamassage.com</span>
+                <a href="mailto:freshamassagebooking@gmail.com" style={{ color: "#d3d3d3", textDecoration: "none", transition: "color 0.3s ease" }} onMouseEnter={(e) => e.target.style.color = "#8B5CF6"} onMouseLeave={(e) => e.target.style.color = "#d3d3d3"}>
+                  freshamassagebooking@gmail.com
+                </a>
               </div>
               <div className="mb-2 d-flex align-items-center gap-2">
                 <FaClock style={{ color: "#8B5CF6" }} />

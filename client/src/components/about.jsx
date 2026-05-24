@@ -103,8 +103,8 @@
 
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { motion } from "framer-motion";
-import { FaFacebook, FaInstagram, FaCheckCircle, FaAward, FaUsers, FaClock, FaStar, FaGem, FaHandHoldingHeart } from "react-icons/fa";
+
+import { FaFacebook, FaInstagram, FaCheckCircle, FaAward, FaUsers, FaClock, FaStar, FaGem, FaHandHoldingHeart, FaWhatsapp } from "react-icons/fa";
 import ceoImage from "../assets/massagetherapist.jpg";
 
 const About = React.forwardRef(({ scrollToSection, bookingsRef }, ref) => {
@@ -199,7 +199,7 @@ const About = React.forwardRef(({ scrollToSection, bookingsRef }, ref) => {
                 ))}
               </Row>
               
-              <div className="d-flex gap-3">
+              <div className="d-flex gap-3 flex-wrap">
                 <Button 
                   onClick={() => scrollToSection(bookingsRef)}
                   style={{
@@ -212,11 +212,29 @@ const About = React.forwardRef(({ scrollToSection, bookingsRef }, ref) => {
                 >
                   Book Your Session
                 </Button>
+                <Button 
+                  href="https://wa.me/18644997958?text=Hello!%20I'm%20interested%20in%20booking%20a%20massage%20session."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    background: "linear-gradient(135deg, #25D366 0%, #128C7E 100%)",
+                    border: "none",
+                    padding: "12px 30px",
+                    borderRadius: "50px",
+                    fontWeight: "bold",
+                    color: "white",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "8px"
+                  }}
+                >
+                  <FaWhatsapp size={20} /> Chat on WhatsApp
+                </Button>
               </div>
               
               <div className="mt-4">
                 <div className="d-flex gap-2">
-                  <a href="https://www.facebook.com/share/18n1BA2eiJ/" target="_blank" style={{
+                  <a href="https://www.facebook.com/share/17crpfuxkF/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" style={{
                     width: "35px",
                     height: "35px",
                     background: "#1877F2",
@@ -228,17 +246,20 @@ const About = React.forwardRef(({ scrollToSection, bookingsRef }, ref) => {
                   }}>
                     <FaFacebook />
                   </a>
-                  <a href="https://www.instagram.com/latttaylor" target="_blank" style={{
+                  <a href="https://wa.me/18644997958?text=Hello!%20I'm%20interested%20in%20booking%20a%20massage%20session." target="_blank" rel="noopener noreferrer" style={{
                     width: "35px",
                     height: "35px",
-                    background: "linear-gradient(135deg, #833AB4, #FD1D1D, #FCAF45)",
+                    background: "#25D366",
                     borderRadius: "50%",
                     display: "inline-flex",
                     alignItems: "center",
                     justifyContent: "center",
-                    color: "white"
-                  }}>
-                    <FaInstagram />
+                    color: "white",
+                    transition: "all 0.3s ease"
+                  }}
+                  onMouseEnter={(e) => e.currentTarget.style.transform = "scale(1.1)"}
+                  onMouseLeave={(e) => e.currentTarget.style.transform = "scale(1)"}>
+                    <FaWhatsapp />
                   </a>
                 </div>
               </div>

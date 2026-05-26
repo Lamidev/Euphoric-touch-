@@ -60,6 +60,7 @@
 
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { motion } from "framer-motion";
 import { FaFacebook, FaInstagram, FaEnvelope, FaPhone, FaMapMarkerAlt, FaClock, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {

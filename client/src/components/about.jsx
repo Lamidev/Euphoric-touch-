@@ -103,7 +103,7 @@
 
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-
+import { motion } from "framer-motion";
 import { FaFacebook, FaInstagram, FaCheckCircle, FaAward, FaUsers, FaClock, FaStar, FaGem, FaHandHoldingHeart, FaWhatsapp } from "react-icons/fa";
 import ceoImage from "../assets/massagetherapist.jpg";
 

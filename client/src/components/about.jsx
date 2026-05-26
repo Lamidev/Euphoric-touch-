@@ -184,9 +184,9 @@ const About = React.forwardRef(({ scrollToSection, bookingsRef }, ref) => {
                 </Row>
               </div>
               
-              <Row className="mb-4">
+              <Row className="mb-4 g-4">
                 {stats.map((stat, idx) => (
-                  <Col key={idx} className="text-center">
+                  <Col xs={6} md={3} key={idx} className="text-center">
                     <motion.div
                       whileHover={{ scale: 1.05 }}
                       transition={{ duration: 0.3 }}

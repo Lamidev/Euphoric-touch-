@@ -14,11 +14,19 @@ app.use(express.json());
 
 // Verify transporter configuration
 const transporter = nodemailer.createTransport({
-  service: 'gmail',
+  host: 'smtp.gmail.com',
+  port: 587,
+  secure: false, // true for port 465, false for other ports
   auth: {
     user: process.env.MAIL_USER,
     pass: process.env.MAIL_PASS,
   },
+  tls: {
+    rejectUnauthorized: false
+  },
+  connectionTimeout: 10000, // 10 seconds timeout
+  socketTimeout: 10000,
+  greetingTimeout: 10000
 });
 
 // Verify email configuration on startup

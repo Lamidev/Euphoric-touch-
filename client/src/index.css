@@ -8,11 +8,15 @@
   box-sizing: border-box;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
 }
 
 /* Smooth Scroll Behavior */
@@ -154,5 +158,25 @@ html {
     width: 52px;
     height: 52px;
     font-size: 28px;
+  }
+}
+
+/* Carousel Mobile Typography Improvements */
+@media (max-width: 768px) {
+  .carousel-caption {
+    left: 5% !important;
+    right: 5% !important;
+    bottom: 15% !important;
+  }
+  .carousel-caption h1 {
+    font-size: 1.8rem !important;
+    line-height: 1.3 !important;
+  }
+  .carousel-caption p.lead {
+    font-size: 0.95rem !important;
+  }
+  .carousel-caption .btn {
+    padding: 8px 20px !important;
+    font-size: 0.9rem !important;
   }
 }

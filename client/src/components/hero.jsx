@@ -121,7 +121,7 @@ function Hero({ scrollToSection, bookingsRef }) {
               bottom: "20%", 
               textAlign: "left",
               left: "10%",
-              right: "auto",
+              right: "10%",
               zIndex: 2
             }}>
               <motion.div

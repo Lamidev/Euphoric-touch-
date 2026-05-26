@@ -93,6 +93,24 @@ app.post('/api/bookings', async (req, res) => {
   }
 });
 
+app.get('/api/email-diagnostic', async (req, res) => {
+  try {
+    await transporter.verify();
+    res.status(200).json({ 
+      status: 'success', 
+      message: 'SMTP connection verified successfully' 
+    });
+  } catch (error) {
+    res.status(500).json({ 
+      status: 'error', 
+      message: 'SMTP verification failed', 
+      error: error.message,
+      code: error.code,
+      command: error.command
+    });
+  }
+});
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

@@ -4,7 +4,7 @@ import Footer from "./components/footer";
 import { FaWhatsapp } from "react-icons/fa";
 
 function App() {
-  const whatsappUrl = "https://wa.me/16815353061?text=Hello!%20I'm%20interested%20in%20booking%20a%20massage%20session.";
+  const whatsappUrl = "https://wa.me/19128544222?text=Hello!%20I'm%20interested%20in%20booking%20a%20massage%20session.";
 
   return (
     <div className="d-flex flex-column min-vh-100">

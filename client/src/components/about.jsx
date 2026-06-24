@@ -213,7 +213,7 @@ const About = React.forwardRef(({ scrollToSection, bookingsRef }, ref) => {
                   Book Your Session
                 </Button>
                 <Button 
-                  href="https://wa.me/16815353061?text=Hello!%20I'm%20interested%20in%20booking%20a%20massage%20session."
+                  href="https://wa.me/19128544222?text=Hello!%20I'm%20interested%20in%20booking%20a%20massage%20session."
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
@@ -246,7 +246,7 @@ const About = React.forwardRef(({ scrollToSection, bookingsRef }, ref) => {
                   }}>
                     <FaFacebook />
                   </a>
-                  <a href="https://wa.me/16815353061?text=Hello!%20I'm%20interested%20in%20booking%20a%20massage%20session." target="_blank" rel="noopener noreferrer" style={{
+                  <a href="https://wa.me/19128544222?text=Hello!%20I'm%20interested%20in%20booking%20a%20massage%20session." target="_blank" rel="noopener noreferrer" style={{
                     width: "35px",
                     height: "35px",
                     background: "#25D366",
